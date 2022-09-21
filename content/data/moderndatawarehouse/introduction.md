@@ -26,4 +26,11 @@ Often built on Enterprise Relational Database engines | Built on modern technolo
 Usually Scale up | Scale out
 On-prem and Cloud | Cloud Only
 
+## Understanding your Data Warehouse Needs
+1) What kind of data are we working with ? (Structured/Semi-Structured/Unstructured)
+2) What is the size of the data we are dealing with ?
+3) Will your data need Symetric Multiprocessing or Massive Parallel Processing ?
+4) Will you be requiring Real-Time Processing or Batch Processing ?
+5) Will you require scaling on the fly or do you require constant compute ?
+
 <!-- Often have OLAP models built on top of DW for reporting | Data can be accessed directly from the Data Lake (or pushed into any system including OLAP model, Data Mart or a Traditional Data Warehouse) -->
