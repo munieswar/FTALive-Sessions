@@ -9,8 +9,9 @@
 "A modern data warehouse lets you bring together all your data at any scale easily, and to get insights through analytical dashboards, operational reports, or advanced analytics for all your users." – Azure Docs
 
 ## Why build a Modern Data Warehouse
-* Support modern business requirements and scenarios!
+* Seperate transactional data from historical data
 * Support data-driven decision making within organisations
+* Support modern business requirements and scenarios!
 * Advanced Analytics workloads (AI/ML)
 * Data exploration and discovery (Data Democratization)
 * Cost efficiency
