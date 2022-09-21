@@ -2,6 +2,20 @@
 
 #### [prev](./introduction.md) | [home](./readme.md)  | [next](./building.md)
 
+## Requirement Validations
+1) RDMS / NoSQL / Both
+2) Capacity & Processing Mapping based on current and futuristic data growth rate
+3) Service / Self-Manage
+      * **Networking**
+      * **Business Continuity** (HA/DR)
+      * **Backups** (But how...)
+      * Performance
+      * Preferred technologies within your organisation, and skill-set to support them
+      * Timelines
+3) How will does it integrate with multiple data sources (if required)
+4) Can it handle Data Layering needs? (Raw/Curated/Projected)
+
+
 ## Architecture
 * **Don't reinvent the wheel!** Visit our [architecture centre](https://docs.microsoft.com/en-us/azure/architecture/) and check out some reference [data architectures](https://docs.microsoft.com/en-us/azure/architecture/data-guide/) such as [MDW for SMB](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/data/small-medium-data-warehouse)
 * Review the [Cloud Adoption Framework for Data and Analytics](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/)
@@ -24,17 +38,7 @@
    * Subscription, region, resource groups 
    * Networking
 
-## Requirements
-   * Don't build a 'generic data platform'
-   * Business
-   * Functional
-   * Non-Functional
-      * **Networking**
-      * **Business Continuity** (HA/DR)
-      * **Backups** (But how...)
-      * Performance
-   * Preferred technologies within your organisation, and skill-set to support them
-   * Timelines
+
 
 ## Data Lakes
 * MDWs have [Data Lakes](https://azure.microsoft.com/en-us/overview/what-is-a-data-lake/) at their core, so become familiar with [concept](https://docs.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-lake)
